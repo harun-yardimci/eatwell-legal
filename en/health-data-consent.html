@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Eatwell — Health Data Consent</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 2.5rem 1.25rem 4rem; max-width: 760px; margin-inline: auto;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a2e; background: #fff; }
+  header { border-bottom: 1px solid #ececf2; padding-bottom: 1.25rem; margin-bottom: 2rem; }
+  .brand { display: inline-flex; align-items: center; gap: .6rem; font-weight: 800; font-size: 1.35rem; color: #FF6B5B; }
+  .brand .mark { width: 30px; height: 30px; border-radius: 8px; background: linear-gradient(135deg,#FF6B5B,#7C5CFF); display:inline-block; }
+  h1 { font-size: 1.9rem; margin: 1.2rem 0 .3rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+  h3 { font-size: 1.02rem; margin: 1.4rem 0 .4rem; }
+  a { color: #FF6B5B; }
+  ul { padding-left: 1.25rem; } li { margin: .35rem 0; }
+  code { background: #f3f3f8; padding: .1rem .35rem; border-radius: 5px; font-size: .9em; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .92rem; display: block; overflow-x: auto; }
+  th, td { border: 1px solid #ececf2; padding: .5rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #f8f8fc; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #ececf2; color: #6b7280; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6f0; background: #0b0b12; }
+    header, footer, th, td { border-color: #232334; }
+    code, th { background: #1b1b28; } footer { color: #9aa0b4; }
+  }
+</style>
+</head>
+<body>
+<header><a href="../index.html" class="brand"><span class="mark"></span>Eatwell</a></header>
+<main>
+<h1>Explicit Consent for Health Data Processing</h1>
+<p><strong>Version:</strong> <code>health-consent-2026-07-26-draft.4</code> · <strong>Effective:</strong> <code>21 July 2026</code> <strong>Status:</strong> In force — approved by legal counsel</p>
+<p>This choice is separate from the KVKK Privacy Notice and is not preselected. I explicitly consent to <code>Harun Yardımcı</code> processing nutrition logs, calories/macros, weight and measurements, goals, water, allergies, diagnoses, medication/supplements, lab documents and HealthKit data that I enter or deliberately connect, for personalised wellness tracking, insights and reports, secure account sync, and AI or authorised dietitian features only when I separately enable them.</p>
+<p>My health data will not be used for advertising, cross-app tracking or sale. Dietitian sharing, AI use, research/model improvement and international transfer are separable purposes and require additional specific choices where applicable.</p>
+<p>Audio recordings and lab document images are not retained after processing. <strong>Meal photos are the exception</strong> and are described below.</p>
+<h2>Meal photos</h2>
+<p>When I log a meal with a photo, the image is stored in a protected area <strong>on my device for 14 days</strong> from the day it was taken, and is deleted the next time I open the app after that period. Deleting the photo does not delete the meal — calories and macros stay in my diary. I can delete any photo individually at any time.</p>
+<p><strong>While sharing is on, photos are also uploaded to the server.</strong> With dietitian sharing off, a photo never leaves my device; once I enable nutrition sharing the image is also stored on <code>Harun Yardımcı</code>'s server for the same 14-day period so my dietitian can see it. The dietitian views it through a short-lived link regenerated on each request, never a permanent one. Stopping or pausing sharing deletes the server-side images, and so does deleting my account.</p>
+<h2>Weekly check-in</h2>
+<p>When I prepare a weekly check-in for a dietitian, my progress photos (up to three angles), my weight and waist measurement, my mood, the private note for my dietitian and the log-adherence preview calculated on the device are stored <strong>on my device only</strong>, in a protected area marked to be excluded from device backups. This content is not sent to <code>Harun Yardımcı</code>'s server and does not reach my dietitian; there is no transfer of check-in content. Metadata is removed from my photos when they are saved.</p>
+<p>When a new week starts the previous week's photos are deleted from my device, and replacing a photo deletes the old one. Remaining drafts are deleted when I delete my local drafts or my account. <strong>The 14-day period for meal photos does not apply to check-in photos:</strong> they are deleted by the events above, not by a timer.</p>
+<h2>Dietitian sharing</h2>
+<p>Sharing is <strong>off by default</strong> and is turned on only when I choose to connect to a dietitian, through a separate confirmation. Once on:</p>
+<ul>
+<li><strong>I choose what is shared.</strong> Categories (nutrition logs, weight, water, health profile, lab</li>
+</ul>
+<p>results, HealthKit) are toggled individually; a category that is off is never sent.</p>
+<ul>
+<li><strong>The dietitian sees the last 28 days.</strong> The window is fixed server-side; neither the dietitian</li>
+</ul>
+<p>nor the app can widen it.</p>
+<ul>
+<li><strong>Connecting also makes my previous 28 days visible.</strong> Sharing is not forward-only, and I accept</li>
+</ul>
+<p>this knowingly before connecting.</p>
+<ul>
+<li><strong>Stopping sharing also hides the past.</strong> Pausing or revoking closes the dietitian's access</li>
+</ul>
+<p>immediately, including records they could previously see.</p>
+<ul>
+<li>The dietitian <strong>cannot edit or delete</strong> my records; they can only view them.</li>
+</ul>
+<p>My sharing consent is recorded on the server and access is verified there on every request; the preference on my device alone grants nothing. A stop decision I make while offline takes effect on my device immediately and reaches the server as soon as a connection is available.</p>
+<h2>Withdrawal</h2>
+<p>I may withdraw consent at any time in privacy settings or via <code>harun.yardimci@gmail.com</code>. Withdrawal stops future consent-based processing and may disable health-dependent features; it does not require account deletion. Limited records required by law may be retained separately.</p>
+</main>
+<footer>Eatwell · Health Data Consent</footer>
+</body>
+</html>

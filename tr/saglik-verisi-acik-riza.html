@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Eatwell — Sağlık Verisi Açık Rıza</title>
+<title>WellFork — Sağlık Verisi Açık Rıza</title>
 <style>
   :root { color-scheme: light dark; }
   * { box-sizing: border-box; }
@@ -31,23 +31,37 @@
 </style>
 </head>
 <body>
-<header><a href="../index.html" class="brand"><span class="mark"></span>Eatwell</a></header>
+<header><a href="../index.html" class="brand"><span class="mark"></span>WellFork</a></header>
 <main>
 <h1>Sağlık Verilerinin İşlenmesine İlişkin Açık Rıza Metni</h1>
-<p><strong>Sürüm:</strong> <code>health-consent-2026-07-26-draft.4</code> <strong>Yürürlük:</strong> <code>21 Temmuz 2026</code> <strong>Durum:</strong> Yürürlükte — hukukçu onayından geçti</p>
+<p><strong>Sürüm:</strong> <code>health-consent-2026-09-14-draft.5</code> <strong>Yürürlük:</strong> <code>21 Temmuz 2026</code> <strong>Durum:</strong> Yürürlükte — hukukçu onayından geçti <strong>Son güncelleme:</strong> 14 Eylül 2026 — yapay zekâ özellikleri ve yurt dışına aktarım bölümü eklendi</p>
 <p>Bu metin, KVKK Aydınlatma Metni'nden ayrı olarak sağlık verileriniz için açık rıza tercihinizi alır. Kutucuk önceden seçili değildir. Rızanızı vermeden önce metni okuyabilir ve bir kopyasına erişebilirsiniz.</p>
 <h2>Rıza kapsamı</h2>
 <p><code>Harun Yardımcı</code> tarafından; uygulamaya girdiğim veya açıkça bağladığım öğün ve besin kayıtları, kalori/makro değerleri, kilo ve vücut ölçümleri, hedefler, su tüketimi, alerji, tanı, ilaç/takviye, laboratuvar belgesi ve HealthKit üzerinden izin verdiğim sağlık/fitness verilerinin:</p>
 <ul>
 <li>kişisel beslenme ve wellness takibi sunulması,</li>
 <li>hedef, içgörü, ilerleme ve rapor oluşturulması,</li>
-<li>yalnız ayrıca etkinleştirdiğimde yapay zekâ veya yetkili mentor özelliklerinin sunulması,</li>
+<li>yapay zekâ özelliklerini kullandığımda yanıt ve taslak üretilmesi (aşağıda ayrıca açıklanır),</li>
+<li>yalnız ayrıca etkinleştirdiğimde yetkili diyetisyen özelliklerinin sunulması,</li>
 <li>güvenli hesap eşitlemesi ve veri kaybının önlenmesi</li>
 </ul>
 <p>amaçlarıyla işlenmesine açık rıza gösteriyorum.</p>
 <h2>Sınırlar</h2>
-<p>Sağlık verilerim reklam, çapraz uygulama takibi veya veri satışı için kullanılmaz. Diyetisyenle paylaşım, yapay zekâ kullanımı, araştırma/model iyileştirme ve yurt dışı aktarım gibi ayrılabilir amaçlar bu genel rızadan türetilmez; ilgili özellikte ayrıca, açık ve granüler izin alınır.</p>
+<p>Sağlık verilerim reklam, çapraz uygulama takibi veya veri satışı için kullanılmaz. Diyetisyenle paylaşım ve araştırma/model iyileştirme gibi ayrılabilir amaçlar bu genel rızadan türetilmez; ilgili özellikte ayrıca, açık ve granüler izin alınır. Yapay zekâ özellikleri ve bunun gerektirdiği yurt dışına aktarım aşağıdaki bölümde açıkça tanımlanmıştır.</p>
 <p>Ses kayıtları ve laboratuvar belgesi görüntüleri işlem sonrası saklanmaz. <strong>Öğün fotoğrafları istisnadır</strong> ve aşağıda ayrıca açıklanır.</p>
+<h2>Yapay zekâ özellikleri ve yurt dışına aktarım</h2>
+<p>AI asistanına soru sorduğumda, bir öğünü veya suyu yazarak kaydettiğimde ya da bir öğün fotoğrafını tanımaya gönderdiğimde, yanıtın veya kayıt taslağının üretilmesi için ilgili içerik <code>Harun Yardımcı</code>'nun sunucusu üzerinden <strong>Google LLC'nin Gemini API hizmetine, Türkiye dışına</strong> gönderilir ve orada işlenir:</p>
+<ul>
+<li><strong>Asistan:</strong> yazdığım soru; sağlık profilimde “AI Asistanı bu profili kullanabilsin” seçeneğini</li>
+</ul>
+<p>açtıysam ayrıca yaşım, boyum, kilom, diyet tercihim, hastalık ve alerji kategorilerim.</p>
+<ul>
+<li><strong>Yazıyla kayıt:</strong> yazdığım cümle ile cihazımın yerel tarihi, saati ve saat dilimi.</li>
+<li><strong>Fotoğraf tanıma:</strong> öğün fotoğrafım; konum dahil meta veri fotoğraf cihazımdan çıkmadan kaldırılır.</li>
+</ul>
+<p>Adım, e-postam, hesap kimliğim, ilaç ve takviye bilgilerim ve önceki mesajlarım gönderilmez. Google bu içerikleri ve yanıtları kendi ürünlerini geliştirmek veya model eğitmek için kullanmaz; yalnız kötüye kullanımın önlenmesi ve yasal yükümlülükler için sınırlı süre kaydedebilir. Soru, cümle ve fotoğraf <code>Harun Yardımcı</code>'nun sunucusunda saklanmaz; üretilen yanıt aynı isteğin tekrarında çift işlem olmaması için hesabıma bağlı olarak <strong>30 gün</strong> tutulur ve süre dolunca ya da hesabımı sildiğimde silinir. Yapay zekâ bir kaydı kendiliğinden günlüğüme yazmaz; taslakları ben onaylarım.</p>
+<p><strong>Yapay zekâ özelliklerini kullanıp kullanmamak benim seçimimdir.</strong> Bu özellikleri kullanmadığımda içeriğim Google'a gönderilmez ve uygulamanın diğer bölümleri çalışmaya devam eder. Bu rızayı verdiğimde, yapay zekâ özelliklerini kullandığım her seferde yukarıdaki işleme ve yurt dışına aktarıma açıkça rıza gösterdiğimi kabul ederim.</p>
+<p>Asistanla yazışmalarım, yazıyla kayıt taslaklarım ve fotoğraf sonucu kartları <strong>yalnız cihazımda</strong> korumalı bir alanda, cihaz yedeğine alınmadan saklanır ve sunucuya gönderilmez. Bu geçmişi Profil › “AI sohbet geçmişini sil” ile istediğim an silebilirim; hesabımı sildiğimde de silinir.</p>
 <h2>Öğün fotoğrafları</h2>
 <p>Bir öğünü fotoğrafla kaydettiğimde görüntü, çekildiği tarihten itibaren <strong>14 gün</strong> boyunca cihazımda korumalı alanda saklanır; bu sürenin dolmasından sonra uygulamayı ilk açışımda silinir. Fotoğrafın silinmesi öğün kaydını silmez — kalori ve makro değerleri günlüğümde kalır. Fotoğrafı istediğim an tek tek silebilirim.</p>
 <p><strong>Paylaşım açıkken fotoğraf sunucuya da yüklenir.</strong> Diyetisyen paylaşımı kapalıyken fotoğraf cihazımdan hiç çıkmaz; beslenme paylaşımını açtığımda ise görüntü, diyetisyenimin görebilmesi için <code>Harun Yardımcı</code>'nun sunucusunda da aynı 14 günlük süreyle saklanır. Diyetisyen görüntüyü kalıcı bir bağlantıyla değil, her seferinde yeniden üretilen kısa ömürlü bir bağlantıyla görür. Paylaşımı durdurduğumda ya da duraklattığımda sunucudaki görüntüler silinir; hesabımı sildiğimde de silinir.</p>
@@ -80,6 +94,6 @@
 <p>Rızamı uygulamanın gizlilik ayarlarından veya <code>harun.yardimci@gmail.com</code> adresine başvurarak her zaman geri alabilirim. Geri alma ileriye etkili olarak rızaya dayalı işlemleri durdurur. Sağlık verisi gerektiren özellikler kapanabilir; hesabımı silmek zorunda kalmadan rızamı geri alabilirim. Kanuni saklama zorunluluğu bulunan sınırlı kayıtlar ayrı tutulabilir.</p>
 <p><strong>Olumlu beyan:</strong> “Sağlık verilerimin yukarıda açıklanan amaç ve sınırlarla işlenmesine açıkça rıza gösteriyorum.”</p>
 </main>
-<footer>Eatwell · Sağlık Verisi Açık Rıza</footer>
+<footer>WellFork · Sağlık Verisi Açık Rıza</footer>
 </body>
 </html>

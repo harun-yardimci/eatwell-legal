@@ -37,10 +37,10 @@
 <header><a href="../index.html" class="brand"><span class="mark"></span>EatWell</a></header>
 <main>
 <h1>Sağlık Verilerinin İşlenmesine İlişkin Açık Rıza Metni</h1>
-<p><strong>Sürüm:</strong> <code>health-consent-2026-09-22-draft.8</code> <strong>Yürürlük:</strong> <code>21 Temmuz 2026</code> <strong>Durum:</strong> Yürürlükte — hukukçu onayından geçti <strong>Son güncelleme:</strong> 22 Eylül 2026 — haftalık kontrolün, ayrı onayla, diyetisyene gönderilmesi eklendi</p>
+<p><strong>Sürüm:</strong> <code>health-consent-2026-11-03-draft.9</code> <strong>Yürürlük:</strong> <code>21 Temmuz 2026</code> <strong>Durum:</strong> Yürürlükte — hukukçu onayından geçti <strong>Son güncelleme:</strong> 3 Kasım 2026 — vücut analizi (tartı çıktısı tarama, Apple Sağlık, diyetisyenin ölçüm eklemesi) eklendi</p>
 <p>Bu metin, KVKK Aydınlatma Metni'nden ayrı olarak sağlık verileriniz için açık rıza tercihinizi alır. Kutucuk önceden seçili değildir. Rızanızı vermeden önce metni okuyabilir ve bir kopyasına erişebilirsiniz.</p>
 <h2>Rıza kapsamı</h2>
-<p><code>Harun Yardımcı</code> tarafından; uygulamaya girdiğim veya açıkça bağladığım öğün ve besin kayıtları, kalori/makro değerleri, kilo ve vücut ölçümleri, hedefler, su tüketimi, alerji, tanı, ilaç/takviye, laboratuvar belgesi ve HealthKit üzerinden izin verdiğim sağlık/fitness verilerinin:</p>
+<p><code>Harun Yardımcı</code> tarafından; uygulamaya girdiğim veya açıkça bağladığım öğün ve besin kayıtları, kalori/makro değerleri, kilo, vücut ölçümleri ve vücut analizi (tartı ölçümleri), hedefler, su tüketimi, alerji, tanı, ilaç/takviye, laboratuvar belgesi ve HealthKit üzerinden izin verdiğim sağlık/fitness verilerinin:</p>
 <ul>
 <li>kişisel beslenme ve wellness takibi sunulması,</li>
 <li>hedef, içgörü, ilerleme ve rapor oluşturulması,</li>
@@ -57,7 +57,7 @@
 <ul>
 <li><strong>Asistan:</strong> yazdığım soru; sağlık profilimde “AI Asistanı bu profili kullanabilsin” seçeneğini</li>
 </ul>
-<p>açtıysam ayrıca yaşım, boyum, kilom, diyet tercihim, hastalık ve alerji kategorilerim; “Asistan diyetisyenimin programını görsün” seçeneğini ayrıca açtıysam diyetisyenimin o hafta süren programındaki yenecekler ve kaçınılacaklar listesi ile kalori, protein ve su hedefleri. Bu iki seçenek birbirinden bağımsızdır ve varsayılan olarak kapalıdır.</p>
+<p>açtıysam ayrıca yaşım, boyum, kilom, diyet tercihim, hastalık ve alerji kategorilerim; “Asistan diyetisyenimin programını görsün” seçeneğini ayrıca açtıysam diyetisyenimin o hafta süren programındaki yenecekler ve kaçınılacaklar listesi ile kalori, protein ve su hedefleri. Bu iki seçenek birbirinden bağımsızdır ve varsayılan olarak kapalıdır. “Asistan bugünkü kaydımı görsün” seçeneği açıksa o günün kalori, protein, karbonhidrat, yağ ve su toplamlarım, günlük hedeflerim ve o gün kaydettiğim yiyeceklerin adları; miktarlar, saatler ve notlarım eklenmez. Bu seçenek varsayılan olarak açıktır ve sağlık profilimden kapatabilirim.</p>
 <ul>
 <li><strong>Yazıyla kayıt:</strong> yazdığım cümle ile cihazımın yerel tarihi, saati ve saat dilimi.</li>
 <li><strong>Fotoğraf tanıma:</strong> öğün fotoğrafım; konum dahil meta veri fotoğraf cihazımdan çıkmadan kaldırılır.</li>
@@ -95,7 +95,7 @@
 <ul>
 <li><strong>Neyi paylaştığımı ben seçerim.</strong> Kategoriler (öğün/besin kayıtları, kilo, su, hareket kayıtları, sağlık profili,</li>
 </ul>
-<p>laboratuvar sonuçları, HealthKit, haftalık kontroller) tek tek açılıp kapatılır; kapalı bir kategori diyetisyene hiç gitmez. Haftalık kontroller kategorisi sonradan eklendi ve <strong>kapalı başlar</strong>: daha önce verdiğim paylaşım onu kapsamaz, yukarıdaki ayrı onayla açılır.</p>
+<p>laboratuvar sonuçları, HealthKit, haftalık kontroller, vücut analizi) tek tek açılıp kapatılır; kapalı bir kategori diyetisyene hiç gitmez. Haftalık kontroller kategorisi sonradan eklendi ve <strong>kapalı başlar</strong>: daha önce verdiğim paylaşım onu kapsamaz, yukarıdaki ayrı onayla açılır. Vücut analizi kategorisi de sonradan eklendi ve <strong>kapalı başlar</strong>; kaydı kilomu da taşıdığı için yalnız kilo da paylaşılıyorsa görünür.</p>
 <ul>
 <li><strong>Diyetisyen son 28 günü görür.</strong> Pencere sunucu tarafında sabittir; ne diyetisyen ne de</li>
 </ul>
@@ -109,8 +109,9 @@
 </ul>
 <p>erişimini o an kapatır — daha önce görünen kayıtlar dahil.</p>
 <ul>
-<li>Diyetisyen kayıtlarımı <strong>düzeltemez veya silemez</strong>; yalnız görüntüler.</li>
+<li>Diyetisyen kayıtlarımı <strong>düzeltemez veya silemez</strong>; yalnız görüntüler. Tek istisna: vücut analizi</li>
 </ul>
+<p>ve kilo paylaşımım açıkken diyetisyenim seansta ölçtüğü vücut analizini kaydıma <strong>ekleyebilir</strong> (yanında bir kilo kaydı oluşur); ölçüm “Diyetisyen girdi” diye işaretlenir, bana bildirim gelir ve onu düzeltebilir ya da silebilirim.</p>
 <p>Paylaşım rızam sunucuda kayıtlıdır ve erişim her istekte oradan doğrulanır; cihazımdaki tercih tek başına yetki vermez. Çevrimdışıyken verdiğim durdurma kararı cihazımda hemen geçerli olur ve bağlantı kurulur kurulmaz sunucuya iletilir.</p>
 <h2>Geri alma</h2>
 <p>Rızamı uygulamanın gizlilik ayarlarından veya <code>privacy@geteatwell.app</code> adresine başvurarak her zaman geri alabilirim. Geri alma ileriye etkili olarak rızaya dayalı işlemleri durdurur. Sağlık verisi gerektiren özellikler kapanabilir; hesabımı silmek zorunda kalmadan rızamı geri alabilirim. Kanuni saklama zorunluluğu bulunan sınırlı kayıtlar ayrı tutulabilir.</p>
